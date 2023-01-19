@@ -30,6 +30,7 @@ The following sketch sets up a wifi connection and allows over the air updates.
 ```C++
 
 #include <Automaton-OTA.h>
+#include <Atm_esp8266.h>                 // to setup wifi
 
 // wifi config
 const char* WIFI_SSID = "myssid";        // SSID of your wifi
