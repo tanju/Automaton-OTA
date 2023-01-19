@@ -1,0 +1,19 @@
+{
+    "name": "Automaton-OTA",
+    "version": "0.1.0",
+    "keywords": "state, machine",
+    "description": "Rudimentary OTA integration into Automaton finite state machine framework for Arduino that helps avoiding additional calls in loop. Event handlers will be added later.",
+    "authors":
+    {
+        "name": "tanju",
+        "email": "github.jan@arnhold.com",
+        "url": "https://github.com/tanju"
+    },
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/tanju/Automaton-OTA"
+    },
+    "frameworks": "arduino",
+    "platforms": "atmelavr"
+}
