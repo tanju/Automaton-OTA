@@ -1,5 +1,5 @@
 # Automaton-OTA
-Arduino OTA integration into Automaton framework.
+Arduino OTA (over the air update) integration into [Automaton framework](https://github.com/tinkerspy/Automaton/wiki), a Reactive State Machine Framework for Arduino.
 
 The idea of this library is to keep a sketch based on Automaton cleaner. No need to place AuduinoOTA.handle() in your loop function.
 
@@ -7,9 +7,11 @@ The idea of this library is to keep a sketch based on Automaton cleaner. No need
 
 ### Automaton
 
-[Webite](https://github.com/tinkerspy/Automaton/wiki)
+Reactive State Machine Framework for Arduino.
 
 Tested with Version 1.0.2, install with Library Manager
+
+[Webite](https://github.com/tinkerspy/Automaton/wiki)
 
 ### Automaton-Esp8266 (optional)
 [Website](https://github.com/tinkerspy/Automaton-Esp8266/wiki)
@@ -21,7 +23,7 @@ Tested with Version 0.1.0, install with Library Manager
 
 ### ArduinoOTA
 
-Part of ESP8266 board package.
+Part of ESP8266 board package, you do not need an additional library.
 
 ## Example
 
@@ -56,4 +58,4 @@ void loop(){
 }
 ```
 
-Thats it.
+That's it.
